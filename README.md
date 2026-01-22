@@ -43,7 +43,7 @@ Including different sectors allows us to obtain a more diversified portfolio. Al
 1. Clone the repository
 2. Install Python and required packages
 3. Open the Jupyter Notebook
-4. Run Cells sequantially
+4. Run Cells sequentially
 
 
 
