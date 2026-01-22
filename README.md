@@ -40,10 +40,10 @@ Including different sectors allows us to obtain a more diversified portfolio. Al
 
 # How to Run 
 
-1. Clone the repository
+1. Clone the repository (make sure the coding file and the datasets are in the same folder!)
 2. Install Python and required packages
 3. Open the Jupyter Notebook
-4. Run Cells sequentially
+4. Run Cells sequentially (don not forget to set the path to your folder in the working directory!)
 
 
 
