@@ -3,7 +3,7 @@
 # Project Overview
 In this project I use daily prices and financial statement data of 50 public U.S companies  to create measures in order to assess their exposure to default and market risk over a time horizon of  9 years.
 
-The analysis includes data cleaning, exploratory data analysis and the creation and assessment of robust risk-related financial metrics. 
+The analysis includes data cleaning, exploratory data analysis and the creation, assessment and visualization of robust risk-related financial metrics. 
 
 The analysis is performed in Python using a Jupyter Notebook.  
 
@@ -37,6 +37,14 @@ Including different sectors allows us to obtain a more diversified portfolio. Al
 * According to the cross-sectional average Merton's naive Distance to Default (DD) measure, our portfolio of stocks seems to have higher default risk over time with the lowest point to be in 2020 due to the COVID-19 pandemic. Calculated naive DD probabilities are also useful to get a sense of the probability of default since Merton's naive DD is measured in standard deviations.
 * According to the cross-sectional average Value at Risk (VaR) and Expected Shortfall (ES), our portfolio seems to have increased market risk to extreme losses over time with a spike in 2022 due to the COVID-19 pandemic. 
 * Looking at the correlation between the created risk measures we can see that Altman's Z score and VaR have very weak correlation. This is expected as VaR relies only one daily stock prices whereas Altman's Z score relies on yearly fundamental company values. DD and VaR are negatively correlated since a decreasing DD means the firm gets closer to default which signifies increased credit risk, which in turn leads to higher potential losses (VaR). Z score and DD have positive correlation as both are default risk measures.
+
+# How to Run 
+
+1. Clone the repository
+2. Install Python and required packages
+3. Open the Jupyter Notebook
+4. Run Cells sequantially
+
 
 
 
