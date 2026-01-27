@@ -30,6 +30,7 @@ The companies included represent the following sectors: Information Technology, 
 Including different sectors allows us to obtain a more diversified portfolio. Also, it opens the door for a sector analysis if deemed necessary.
 
 Note that created datasets during the analysis can be found in data_created folder in the data folder.
+Note that created graphs of the analysis can be found in the graphs folder.
 
 ## Tools and Technologies
 * Python (Libraries: Pandas, NumPy, SciPy, Matplotlib)
