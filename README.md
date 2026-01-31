@@ -17,7 +17,7 @@ In this project I use daily prices and financial statement data of 50 public U.S
 
 The analysis includes data cleaning, exploratory data analysis and the creation, assessment and visualization of robust risk-related financial metrics. 
 
-The analysis is performed in Python..  
+The analysis is performed in Python. 
 
 ## Data
 
@@ -31,8 +31,8 @@ The datasets include information about 50 public U.S companies, continuous membe
 The companies included represent the following sectors: Information Technology, Communication Services, Healthcare, Consumer Staples, Consumer Discretionary, Industrials, Energy and Utilities.
 Including different sectors allows us to obtain a more diversified portfolio. Also, it opens the door for a sector analysis if deemed necessary.
 
-Note that created datasets during the analysis can be found in data_created folder in the data folder.
-Note that created graphs of the analysis can be found in the graphs folder.
+Note that datasets that are generated during the analysis can be found in data_created folder in the data folder.
+Note that graphs generated during the analysis can be found in the graphs folder.
 
 ## Tools and Technologies
 * Python (Libraries: Pandas, NumPy, SciPy, Matplotlib)
@@ -40,7 +40,7 @@ Note that created graphs of the analysis can be found in the graphs folder.
 ## Analysis Workflow
 * Run the .py files in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
 * You can run the .py files in any order you want but this order is indicative of the analysis workflow.
-* Each file contains each measure created and graphs produced. The correlations_between_measures.py contains the correlations claculation and visualization between the 3 risk measures.
+* Each file contains each measure created and graphs produced. The correlations_between_measures.py contains the correlations calculation and visualization between the 3 risk measures.
 
 ## Modeling Assumptions
 * Daily and yearly returns are being calculated using the standard finance textbook formulas with continuous compounding.
