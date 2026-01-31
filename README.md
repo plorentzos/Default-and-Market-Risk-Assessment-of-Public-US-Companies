@@ -61,16 +61,13 @@ Note that you can always delete the data_created and graphs folder. They will ge
 
 ## How to Run 
 1. Make sure Python is installed.
-2. Clone the repository:
-   git clone https://github.com/plorentzos/Default-and-Market-Risk-Assessment-of-Public-US-Companies
+2. Clone the repository
 3. Navigate to the project folder:
    cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
 4. Create a virtual environment:
    uv venv
-5. Activate the virtual environment:
-   - Windows: .\.venv\Scripts\activate
-   - macOS/Linux: source .venv/bin/activate
-6. Install dependencies:
+5. Activate the virtual environment depending the operating system you use(e.g. Windows, Linux..)
+6. Install the necessary libaries via:
    python -m pip install -r requirements.txt
 7. Run the scripts in this order:
    python altman_z_score.py
