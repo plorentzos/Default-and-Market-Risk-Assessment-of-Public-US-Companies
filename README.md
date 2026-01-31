@@ -1,13 +1,15 @@
 # Default-and-Market-Risk-Assessment-of-Public-US-Companies
 
 ## Table of Contents
-#### Project Overview
-#### Data
-#### Tools and Technologies
-#### Analysis Workflow
-#### Modeling Assumptions
-#### Insights
-#### How to Run
+
+- [Project Overview](#project-overview)
+- [Data](#data)
+- [Tools and Technologies](#tools-and-technologies)
+- [Analysis Workflow](#analysis-workflow)
+- [Modeling Assumptions](#modeling-assumptions)
+- [Insights](#insights)
+- [How to Run](#how-to-run)
+
 
 
 ## Project Overview
