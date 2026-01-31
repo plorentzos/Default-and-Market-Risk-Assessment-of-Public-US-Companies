@@ -60,12 +60,24 @@ Note that you can always delete the data_created and graphs folder. They will ge
 * Looking at the correlation between the created risk measures we can see that Altman's Z score and VaR have very weak correlation. This is expected as VaR relies only one daily stock prices whereas Altman's Z score relies on yearly fundamental company values.  We also see that during periods of distress (CoVid-19) correlations between Z score and VaR are virtually zero. DD and VaR are negatively correlated since a decreasing DD means the firm gets closer to default which signifies increased credit risk, which in turn leads to higher potential losses (VaR). We also see that during periods of distress(Covid-19) correlations between DD and VaR get less negative.Z score and DD have positive correlation as they are both default risk measures, but the level of correlation is weak since they are built using different variables and assumptions. 
 
 ## How to Run 
-1. Have Python installed in your PC.
-1. Clone the repository
-2. cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
-3. uv venv
-4. uv pip install -r requirements.txt
-5. Run the .py files in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
+1. Make sure Python is installed.
+2. Clone the repository:
+   git clone https://github.com/plorentzos/Default-and-Market-Risk-Assessment-of-Public-US-Companies
+3. Navigate to the project folder:
+   cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
+4. Create a virtual environment:
+   uv venv
+5. Activate the virtual environment:
+   - Windows: .\.venv\Scripts\activate
+   - macOS/Linux: source .venv/bin/activate
+6. Install dependencies:
+   python -m pip install -r requirements.txt
+7. Run the scripts in this order:
+   python altman_z_score.py
+   python merton_dd.py
+   python var_and_es.py
+   python correlations_between_measures.py
+
 
 
 
