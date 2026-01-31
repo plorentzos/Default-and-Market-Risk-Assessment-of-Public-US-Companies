@@ -69,7 +69,7 @@ Note that you can always delete the data_created and graphs folder. They will ge
 6. Activate the virtual environment according to the operating system you use(e.g. Windows, Linux, macOS).
 7. Install the necessary libraries in the activated virtual environment:
    python -m pip install -r requirements.txt
-8. Run the scripts in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
+8. Run the python scripts in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
    
 
 
