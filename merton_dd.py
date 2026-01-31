@@ -3,13 +3,12 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# %%
-print(os.getcwd()) # get current working directory
-# Set the directory to the path of the folder you saved the project
-dir = "C:/Users/30697/Desktop/Projects/default and market risk of public us companies" 
-os.chdir(dir)
-#%%
-prices = pd.read_csv('data/prices.csv') # Import prices dataset
+# %% Directory setup
+# Set relative path to the data file
+base_dir = os.path.dirname(os.path.abspath(__file__))
+prices_path = os.path.join(base_dir, "data", "prices.csv")
+#%% Import prices dataset
+prices = pd.read_csv(prices_path) # Import prices dataset
 print('The first 5 daily prices for each company are\n', prices.head())
 # %%
 prices["Date"] = pd.to_datetime(prices["Date"], utc=True).dt.date # Convert Date
@@ -80,7 +79,8 @@ sigma_d = 0.05 + 0.25 * sigma_e
 print("The debt volatility per company are\n", sigma_d.head())
 # %%
 # Import data that contain the equity value and face value of debt for each firm
-capital = pd.read_csv('data\merton_data.csv')
+capital_path = os.path.join(base_dir, "data", "merton_data.csv")
+capital = pd.read_csv(capital_path)
 print(capital.head()) # Inspect the dataset
 
 # Further checks
@@ -187,4 +187,3 @@ print("The naive default probabilities per year per company are\n", pi_naive.rou
 
 # Save the probabilities of default as a csv file
 pi_naive.to_csv("data/data_created/naive_default_probabilities.csv", index = True)
-

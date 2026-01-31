@@ -3,14 +3,13 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# %%
-print(os.getcwd()) # get current working directory
-# Set the directory to the path of the folder you saved the project
-dir = "C:/Users/30697/Desktop/Projects/default and market risk of public us companies" 
-os.chdir(dir)
+# %% Directory setup
+# Set relative path to the data file
+base_dir = os.path.dirname(os.path.abspath(__file__))
+fs_path = os.path.join(base_dir, "data", "financial_statements.csv")
 # %%
 # Import the financial statements data csv file as a pandas dataframe
-fs = pd.read_csv("data/financial_statements.csv")
+fs = pd.read_csv(fs_path)
 print(fs.head()) # Print the 5 first rows of the dataframe
 # %%
 # View the unique values of Account column

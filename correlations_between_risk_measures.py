@@ -3,16 +3,16 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# %%
-print(os.getcwd()) # get current working directory
-# Set the directory to the path of the folder you saved the project
-dir = "C:/Users/30697/Desktop/Projects/default and market risk of public us companies" 
-os.chdir(dir)
-# %%
-# Import created measures datasets
-z_scores = pd.read_csv('data/data_created/altman_z_scores.csv', index_col = 'Year', parse_dates = ['Year'])
-naive_dd = pd.read_csv('data/data_created/distance_to_default.csv', index_col = 'Year', parse_dates = ['Year'])
-value_at_risk = pd.read_csv('data/data_created/value_at_risk.csv', index_col = 'Year', parse_dates = ['Year'])
+# %% Directory setup
+# Set relative path to the data file
+base_dir = os.path.dirname(os.path.abspath(__file__))
+z_scores_path = os.path.join(base_dir, "data", "data_created", "altman_z_scores.csv")
+naive_dd_path = os.path.join(base_dir, "data", "data_created", "distance_to_default.csv")
+value_at_risk_path = os.path.join(base_dir, "data", "data_created", "value_at_risk.csv")
+# %% Import created measures datasets
+z_scores = pd.read_csv(z_scores_path, index_col = 'Year', parse_dates = ['Year'])
+naive_dd = pd.read_csv(naive_dd_path, index_col = 'Year', parse_dates = ['Year'])
+value_at_risk = pd.read_csv(value_at_risk_path, index_col = 'Year', parse_dates = ['Year'])
 # %% Correlations between the 3 risk measures per year
 
 years = [] # To store the year columns

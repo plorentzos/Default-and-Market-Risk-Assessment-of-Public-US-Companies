@@ -3,19 +3,19 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# %%
-print(os.getcwd()) # get current working directory
-# Set the directory to the path of the folder you saved the project
-dir = "C:/Users/30697/Desktop/Projects/default and market risk of public us companies" 
-os.chdir(dir)
+# %% Directory setup
+# Set relative path to the data file
+base_dir = os.path.dirname(os.path.abspath(__file__))
+returns_path = os.path.join(base_dir, "data", "data_created", "daily_returns.csv")
 # %%
 # Import created daily returns
-returns = pd.read_csv('data/data_created/daily_returns.csv', index_col = 'Date', parse_dates = ['Date'])
+returns = pd.read_csv(returns_path, index_col = 'Date', parse_dates = ['Date'])
 print('The first 5 daily returns per company are\n', returns.head())
 # %%
 print(returns)
 # %% Import companies list and create years list again
-companies = pd.read_csv('data/data_created/companies_list.csv')['Company_Name'].tolist()
+companies_path = os.path.join(base_dir, "data", "data_created", "companies_list.csv")
+companies = pd.read_csv(companies_path)['Company_Name'].tolist()
 
 years = [] # To store the year columns
 for year in range(2012, 2023):
