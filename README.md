@@ -33,14 +33,18 @@ Including different sectors allows us to obtain a more diversified portfolio. Al
 
 Note that datasets that are generated during the analysis can be found in data_created folder in the data folder.
 Note that graphs generated during the analysis can be found in the graphs folder.
+Note that you can always delete the data_created and graphs folder. They will get generated again when you run the .py files.
 
 ## Tools and Technologies
 * Python (Libraries: Pandas, NumPy, SciPy, Matplotlib)
 
 ## Analysis Workflow
-* Run the .py files in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
-* You can run the .py files in any order you want but this order is indicative of the analysis workflow.
-* Each file contains each measure created and graphs produced. The correlations_between_measures.py contains the correlations calculation and visualization between the 3 risk measures.
+* First, I inspect the raw data.
+* Then I rename column names for better interpretability.
+* I transform the data according to what is more optimal to perform the analysis.
+* I check for missing values and duplicates. I overview the data type of each variable and the dimensions of the whole dataset.
+* I do some final checks to see if the dataset is nice and tidy before I start the analysis.
+* Finally in each file, besides the correlations one, I create a risk measure and visualize it accordingly. The correlations_between_measures.py contains the correlations calculation and visualization between Altman's Z score, Merton's DD ,and Value at Risk risk measures.
 
 ## Modeling Assumptions
 * Daily and yearly returns are being calculated using the standard finance textbook formulas with continuous compounding.
@@ -60,8 +64,10 @@ Note that graphs generated during the analysis can be found in the graphs folder
 ## How to Run 
 
 1. Clone the repository 
-2. Install Python and required packages found in requirement.txt file. You can type pip install -r requirements.txt in your terminal to install the necessary versions of the libraries.
-3. Do not forget to set your working directory, each file provides code that with minimal changes can get you there.
+2. Install Python 
+3. Type pip install -r requirements.txt in your terminal to install the necessary versions of the libraries used in the project.
+4. Run the .py files in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
+
 
 
 
