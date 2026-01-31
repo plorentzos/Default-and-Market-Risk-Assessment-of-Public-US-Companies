@@ -69,10 +69,10 @@ Note that you can always delete the data_created and graphs folder. They will ge
 3. uv venv
 4. uv pip install -r requirements.txt
 5. Run the .py files in this order:
-   altman_z_score.py
-   merton_dd.py
-   var_and_es.py
-   correlations_between_measures.py
+python altman_z_score.py
+python merton_dd.py
+python var_and_es.py
+python correlations_between_measures.py
 
 
 
