@@ -43,7 +43,7 @@ Note that created graphs of the analysis can be found in the graphs folder.
 * Each file contains each measure created and graphs produced. The correlations_between_measures.py contains the correlations claculation and visualization between the 3 risk measures.
 
 ## Modeling Assumptions
-* Daily and yearly returns are being calculated using the standard industry formulas with continuous compounding.
+* Daily and yearly returns are being calculated using the standard finance textbook formulas with continuous compounding.
 * For Altman's Z Score refer to the non-manufacturer bankruptcy model on https://en.wikipedia.org/wiki/Altman_Z-score
 * For Merton's Distance to Default refer to "Forecasting Default with Merton Distance to Default Model" (Bharath et. al 2008) , particularly section 2.3.
 * Value At Risk and Expected Shortfall are calculated using the standard textbook formulas. In any case you can refer to Quantitative Risk Management book (McNeil et. al) chapter 2.3.
