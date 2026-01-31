@@ -63,10 +63,12 @@ Note that you can always delete the data_created and graphs folder. They will ge
 
 ## How to Run 
 
-1. Clone the repository 
-2. Install Python 
-3. Type pip install -r requirements.txt in your terminal to install the necessary versions of the libraries used in the project.
-4. Run the .py files in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
+1. Have Python installed in your PC.
+1. Clone the repository
+2. cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
+3. uv venv
+4. uv pip install -r requirements.txt
+5. Run the .py files in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
 
 
 
