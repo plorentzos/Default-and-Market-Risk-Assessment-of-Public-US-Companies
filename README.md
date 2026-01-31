@@ -68,7 +68,12 @@ Note that you can always delete the data_created and graphs folder. They will ge
 2. cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
 3. uv venv
 4. uv pip install -r requirements.txt
-5. Run the .py files in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
+5. Run the .py files in this order:
+   altman_z_score.py
+   merton_dd.py
+   var_and_es.py
+   correlations_between_measures.py
+
 
 
 
