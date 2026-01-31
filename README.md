@@ -61,15 +61,18 @@ Note that you can always delete the data_created and graphs folder. They will ge
 
 ## How to Run 
 1. Make sure Python is installed.
-2. Clone the repository
-3. Navigate to the project folder:
+2. Clone the repository.
+3. Open the repository using your preferred IDE(e.g. VS Code).
+4. Navigate to the project folder where you saved the repo:
    cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
-4. Create a virtual environment:
-   uv venv
-5. Activate the virtual environment depending the operating system you use(e.g. Windows, Linux..)
-6. Install the necessary libraries in the activated virtual environment:
+5. Create a virtual environment by typing in your terminal:
+   python -m uv venv
+6. Activate the virtual environment according to the operating system you use(e.g. Windows, Linux, macOS)
+7. Install pip in your activated virtual environment:
+   python -m ensurepip --upgrade
+9. Install the necessary libraries in the activated virtual environment:
    uv pip install -r requirements.txt
-7. Run the scripts in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
+10. Run the scripts in this order: altman_z_score.py -> merton_dd.py -> var_and_es.py -> correlations_between_measures.py
    
 
 
