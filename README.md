@@ -44,6 +44,8 @@ Note that you can always delete the data_created and graphs folder. They will ge
 * I do some final checks to see if the dataset is nice and tidy before I start the analysis.
 * Finally in each file, besides the correlations one, I create a risk measure and visualize it accordingly. The correlations_between_measures.py contains the correlations calculation and visualization between Altman's Z score, Merton's DD ,and Value at Risk risk measures.
 
+Note that additional comments regarding the code and the analysis can be found in the .py files.
+
 ## Modeling Assumptions
 * Daily and yearly returns are being calculated using the standard finance textbook formulas with continuous compounding.
 * For Altman's Z Score refer to the non-manufacturer bankruptcy model on https://en.wikipedia.org/wiki/Altman_Z-score
