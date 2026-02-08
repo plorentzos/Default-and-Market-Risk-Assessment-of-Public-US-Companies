@@ -4,7 +4,7 @@
 - [Project Overview](#project-overview)
 - [Data](#data)
 - [Tools and Technologies](#tools-and-technologies)
-- [Analysis Workflow](#analysis-workflow)
+- [Project Workflow](#project-workflow)
 - [Modeling Assumptions](#modeling-assumptions)
 - [Insights](#insights)
 - [How to Run](#how-to-run)
