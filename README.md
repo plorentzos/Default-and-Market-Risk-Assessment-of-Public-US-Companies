@@ -67,7 +67,7 @@ Note that additional comments regarding the code and the analysis can be found i
 3. Open the repository using your preferred IDE(e.g. VS Code).
 4. Navigate to the project folder where you saved the repo:
    cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
-5. Create a virtual environment using uv: python -m uv venv
+5. Create a virtual environment by typing in your terminal: python -m venv your_preferred_venv_name
 6. Activate the virtual environment according to the operating system you use(e.g. Windows, Linux, macOS).
 7. Install the necessary libraries in the activated virtual environment:
    python -m pip install -r requirements.txt
