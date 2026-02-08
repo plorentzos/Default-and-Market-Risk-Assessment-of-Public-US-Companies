@@ -69,11 +69,7 @@ Note that additional comments regarding the code and the analysis can be found i
 
 * Assume the owner of the portfolio holds 1 billion euros worth of each stock, i.e., they have invested a total of 50 billion euros in their portfolio of stocks. According to the cross-sectional average Value at Risk (VaR) and Expected Shortfall (ES), the portfolio seems to have increased market risk to extreme losses over time with a spike in 2022 due to the COVID-19 pandemic.
   
-* Altman's Z score and VaR have very weak correlation. This is expected as VaR relies only one daily stock prices whereas Altman's Z score relies on yearly fundamental company values.  Additionally, during periods of distress (CoVid-19) correlations between Z score and VaR are virtually zero.
-
-DD and VaR are negatively correlated since a decreasing DD means the firm gets closer to default which signifies increased credit risk, which in turn leads to higher potential losses (VaR). Also, during periods of distress(Covid-19) correlations between DD and VaR get less negative.
-
-Z score and DD have positive correlation as they are both default risk measures, but the level of correlation is weak since they are built using different information sources and assumptions. 
+* Altman's Z score and VaR have very weak correlation. This is expected as VaR relies only one daily stock prices whereas Altman's Z score relies on yearly fundamental company values.  Additionally, during periods of distress (CoVid-19) correlations between Z score and VaR are virtually zero. DD and VaR are negatively correlated since a decreasing DD means the firm gets closer to default which signifies increased credit risk, which in turn leads to higher potential losses (VaR). Also, during periods of distress(Covid-19) correlations between DD and VaR get less negative. Z-score and DD have positive correlation as they are both default risk measures, but the level of correlation is weak since they are built using different information sources and assumptions. 
 
 ## How to Run 
 1. Make sure you have at least Python version 3.9+ installed in your personal computer.
