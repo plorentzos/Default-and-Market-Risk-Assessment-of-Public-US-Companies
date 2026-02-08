@@ -36,14 +36,24 @@ Note that you can always delete the data_created and graphs folder. They will ge
 ## Tools and Technologies
 * Python (Libraries: Pandas, NumPy, SciPy, Matplotlib)
 
-## Analysis Workflow
-* First, I inspect the raw data.
+## Project Workflow
+
+### Risk Measures Creation
+
+For each risk measure the following took place:
+
+* Loaded the dataset and inspected it. Assessed the number of columns in the dataset and renamed any column names or row names if deemed necessary.
+* Pivoted and formatted the dataset so it becomes easier to use for further analysis as well as improve readability.
+* Checked for missing values and duplicates in the dataset.
+* Executed algorithms based on the theoretical background (See #Modeling-Assumptions section) to create the risk measures.
+* Plotted the cross-sectional average of the risk measure
 * Then I rename column names for better interpretability.
 * I transform the data according to what is more optimal to perform the analysis.
 * I check for missing values and duplicates. I overview the data type of each variable and the dimensions of the whole dataset.
 * I do some final checks to see if the dataset is nice and tidy before I start the analysis.
 * Finally in each file, besides the correlations one, I create a risk measure and visualize it accordingly. The correlations_between_measures.py contains the correlations calculation and visualization between Altman's Z score, Merton's DD ,and Value at Risk risk measures.
 
+### Correlations between Risk Measures
 Note that additional comments regarding the code and the analysis can be found in the .py files.
 
 ## Modeling Assumptions
