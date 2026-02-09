@@ -29,9 +29,6 @@ The datasets include information about 50 public U.S companies, continuous membe
 The companies included represent the following sectors: Information Technology, Communication Services, Healthcare, Consumer Staples, Consumer Discretionary, Industrials, Energy and Utilities.
 Including different sectors allows us to obtain a more diversified portfolio. Also, it opens the door for a sector analysis if deemed necessary.
 
-Note that datasets that are generated during the analysis can be found in data_created folder in the data folder.
-Note that graphs generated during the analysis can be found in the graphs folder.
-Note that you can always delete the data_created and graphs folder. They will get generated again when you run the .py files.
 
 ## Tools and Technologies
 * Python (Libraries: Pandas, NumPy, SciPy, Matplotlib)
@@ -54,7 +51,9 @@ For each risk measure the following took place:
 * Constructed the yearly correlations between the the three risk measures from 2014 to 2022.
 * Plotted the yearly correlations of the 3 risk measures across time.
 
-Note that additional comments regarding the code and the analysis can be found in the .py files.
+\* Note that additional comments regarding the code and the analysis can be found in the .py files.
+
+\* Note that graphs generated during the analysis can be found in the graphs folder.
 
 ## Modeling Assumptions
 * Daily and yearly returns are being calculated using the standard finance textbook formulas with continuous compounding.
