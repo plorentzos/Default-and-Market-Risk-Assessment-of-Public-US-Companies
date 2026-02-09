@@ -72,7 +72,7 @@ Note that additional comments regarding the code and the analysis can be found i
 * Altman's Z score and VaR have very weak correlation. This is expected as VaR relies only one daily stock prices whereas Altman's Z score relies on yearly fundamental company values.  Additionally, during periods of distress (CoVid-19) correlations between Z score and VaR are virtually zero. DD and VaR are negatively correlated since a decreasing DD means the firm gets closer to default which signifies increased credit risk, which in turn leads to higher potential losses (VaR). Also, during periods of distress(Covid-19) correlations between DD and VaR get less negative. Z-score and DD have positive correlation as they are both default risk measures, but the level of correlation is weak since they are built using different information sources and assumptions. 
 
 ## How to Run 
-1. Make sure you have Python 3.8+ installed in your personal computer. You can download it from https://www.python.org/downloads/
+1. Make sure you have Python 3.8+ installed in your personal computer. You can download it from: https://www.python.org/downloads/
    ```bash
    python --version
 2. Clone the repository
@@ -81,7 +81,7 @@ Note that additional comments regarding the code and the analysis can be found i
 3. Navigate to the project directory
     ```bash
     cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
-4. Create a virtual environment
+4. Create a virtual environment. For more info visit: https://docs.python.org/3/library/venv.html
     ```bash
     python -m venv venv
 5. Activate the virtual environment according to the operating system you use, e.g. for Windows I use:
