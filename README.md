@@ -95,7 +95,7 @@ Note that additional comments regarding the code and the analysis can be found i
    python altman_z_score.py
    merton_dd.py
    var_and_es.py
-   correlations_between_measures.py
+   correlations_between_risk_measures.py
 
    
 
