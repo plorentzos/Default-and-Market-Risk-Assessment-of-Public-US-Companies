@@ -78,20 +78,19 @@ Note that additional comments regarding the code and the analysis can be found i
 2. Clone the repository
    ```bash
    git clone https://github.com/plorentzos/Default-and-Market-Risk-Assessment-of-Public-US-Companies.git
-3. Open the repository using your preferred IDE(e.g. VS Code).
-4. Navigate to the project directory
+3. Navigate to the project directory
     ```bash
     cd Default-and-Market-Risk-Assessment-of-Public-US-Companies
-5. Create a virtual environment
+4. Create a virtual environment
     ```bash
     python -m venv venv
-6. Activate the virtual environment according to the operating system you use, e.g. for Windows I use:
+5. Activate the virtual environment according to the operating system you use, e.g. for Windows I use:
     ```bash
     venv\Scripts\activate
-7. Install the necessary libraries in the activated virtual environment
+6. Install the necessary libraries in the activated virtual environment
    ```bash
    python -m pip install -r requirements.txt
-8. Run the Python scripts in the following order:
+7. Run the Python scripts in the following order:
    ```bash
    python altman_z_score.py
    merton_dd.py
