@@ -93,9 +93,9 @@ Note that additional comments regarding the code and the analysis can be found i
 7. Run the Python scripts in the following order:
    ```bash
    python altman_z_score.py
-   merton_dd.py
-   var_and_es.py
-   correlations_between_risk_measures.py
+   python merton_dd.py
+   python var_and_es.py
+   python correlations_between_risk_measures.py
 
    
 
