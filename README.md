@@ -88,13 +88,13 @@ The set up instructions below were tested on Windows 11. The project should also
     python -m venv venv
 5. Activate the virtual environment according to the operating system you use.
 
-Windows
+   Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-Linux / macOS
+    Linux / macOS
 
 ```bash
 source venv/bin/activate
