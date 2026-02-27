@@ -94,8 +94,7 @@ The set up instructions below were tested on Windows 11. The project should also
     
 5.2  If you use Linux or macOS , please use:
     
-    ```bash
-    source venv/bin/activate
+     source venv/bin/activate
 7. Install the necessary libraries in the activated virtual environment
    ```bash
    python -m pip install -r requirements.txt
