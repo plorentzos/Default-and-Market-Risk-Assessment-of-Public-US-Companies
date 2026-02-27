@@ -91,8 +91,8 @@ For Windows I use:
    
     ```bash
     venv\Scripts\activate
-    
-     If you use Linux or macOS , please use:
+
+If you use Linux or macOS , please use:
     
      source venv/bin/activate
 7. Install the necessary libraries in the activated virtual environment
