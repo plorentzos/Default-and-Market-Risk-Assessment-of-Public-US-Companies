@@ -86,13 +86,13 @@ The set up instructions below were tested on Windows 11. The project should also
 4. Create a virtual environment. For more info visit: https://docs.python.org/3/library/venv.html
     ```bash
     python -m venv venv
-5. Activate the virtual environment according to the operating system you use
-5.1 For Windows I use:
+5. Activate the virtual environment according to the operating system you use.
+For Windows I use:
    
     ```bash
     venv\Scripts\activate
     
-5.2  If you use Linux or macOS , please use:
+  If you use Linux or macOS , please use:
     
      source venv/bin/activate
 7. Install the necessary libraries in the activated virtual environment
