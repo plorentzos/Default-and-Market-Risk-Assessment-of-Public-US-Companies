@@ -89,6 +89,9 @@ The set up instructions below were tested on Windows 11. The project should also
 5. Activate the virtual environment according to the operating system you use, e.g. for Windows I use:
     ```bash
     venv\Scripts\activate
+   For Linux, please use use:
+    ```bash
+    source venv/bin/activate
 6. Install the necessary libraries in the activated virtual environment
    ```bash
    python -m pip install -r requirements.txt
