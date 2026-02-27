@@ -88,18 +88,17 @@ The set up instructions below were tested on Windows 11. The project should also
     python -m venv venv
 5. Activate the virtual environment according to the operating system you use.
 
-   Windows
+   **Windows**
 
-```bash
-venv\Scripts\activate
-```
+   ```bash
+   venv\Scripts\activate
+   ```
 
-    Linux / macOS
+   **Linux / macOS**
 
-```bash
-source venv/bin/activate
-```
-
+   ```bash
+   source venv/bin/activate
+   ```
 7. Install the necessary libraries in the activated virtual environment
    ```bash
    python -m pip install -r requirements.txt
