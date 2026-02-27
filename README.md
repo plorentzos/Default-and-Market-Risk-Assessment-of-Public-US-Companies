@@ -94,7 +94,7 @@ The set up instructions below were tested on Windows 11. The project should also
    venv\Scripts\activate
    ```
 
-   **Linux / macOS**
+   **Linux \ macOS**
 
    ```bash
    source venv/bin/activate
