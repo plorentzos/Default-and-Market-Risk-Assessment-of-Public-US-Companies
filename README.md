@@ -91,6 +91,7 @@ The set up instructions below were tested on Windows 11. The project should also
     venv\Scripts\activate
     
    For Linux, please use use:
+    
     ```bash
     source venv/bin/activate
 6. Install the necessary libraries in the activated virtual environment
