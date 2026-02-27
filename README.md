@@ -90,7 +90,7 @@ The set up instructions below were tested on Windows 11. The project should also
     ```bash
     venv\Scripts\activate
     
-   For Linux, please use use:
+   For Linux or macOS , please use use:
     
     ```bash
     source venv/bin/activate
